@@ -5,6 +5,8 @@ import (
 )
 
 func containsDuplicate(nums []int) bool {
+	// time O(n)
+	// space O(n)
 	set := make(map[int]struct{}, len(nums))
 	for _, v := range nums {
 		if _, isSeen := set[v]; isSeen {
