@@ -6,6 +6,8 @@ import (
 )
 
 func IsReflected(points [][]int) bool {
+	//https://www.lintcode.com/problem/908/description
+
 	// Write your code here
 	// 1. понять где такая линия может быть -> xMin, xMax O(n)
 	// 2. для каждой точки проверить, есть ли симм. такая что,
