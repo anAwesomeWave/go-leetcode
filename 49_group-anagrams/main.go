@@ -1,7 +1,7 @@
 package main
 
 func groupAnagrams(strs []string) [][]string {
-	// Time O(n * m), n - len(strs), m - 100 (len of word)
+	// Time O(n * m {{ * 26 }}), n - len(strs), m - 100 (len of word)
 	// Space O(n) - n len(strs)
 
 	anagrams := map[[26]int][]string{}
